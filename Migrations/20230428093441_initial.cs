@@ -10,6 +10,7 @@ namespace Taskcomapny.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            // cretaing table
             migrationBuilder.CreateTable(
                 name: "Companies",
                 columns: table => new
